@@ -1,0 +1,117 @@
+@import "./helpers.less";
+
+& {
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, .h1 {
+	font-family: @font-bold;
+	margin: 0 0 20px 0;
+	.font-size(74, 78);
+	font-weight: normal;
+	color: @font-dark;
+
+	@media @sm {
+		.font-size(54, 58);
+	}
+}
+
+h2, .h2 {
+	font-family: @font-bold;
+	margin: 0 0 35px 0;
+	.font-size(50, 55);
+	font-weight: normal;
+	color: @font-light;
+}
+
+h3, .h3 {
+	font-family: @font-bold;
+	margin:0 0 25px 0;
+	.font-size(30, 34);
+	font-weight: normal;
+	color: @font-dark;
+}
+
+h4, .h4 {
+	font-family: @font-family-light;
+	margin:0 0 20px 0;
+	.font-size(18, 22);
+	font-weight: normal;
+	color: @font-dark;
+}
+
+p {
+	font-family: @font-regular;
+	margin: 0 0 10px 0;
+	.font-size(18, 26);
+	color: @font-dark;
+}
+
+a,
+.link {
+	font-family: @font-regular;
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	cursor: pointer;
+	.font-size(18, 26);
+	.transition(all 0.3s ease-in-out);
+
+	&:hover,
+	&:focus {
+		outline: none;
+		color: rgba(0, 0, 0, 0.8);
+	}
+}
+
+.small {
+	.font-size(14, 18);
+}
+
+ul {
+	li {
+		font-family: @font-regular;
+		margin: 0 0 10px 0;
+		.font-size(16, 21);
+		color: @font-dark;
+	}
+}
+
+// Editable content
+// ==========================================================================
+// For blocks with CMS content where things like lists need to be styled.
+
+.type--content {
+	ul {
+		list-style-type: disc;
+	}
+	ul, ol {
+		list-style-position: outside;
+		margin: 0 0 18px 16px;
+		padding: 0;
+
+		li {
+			p {
+				.ie8 &,
+				.ie9 &,
+				.ie10 & {
+					display: inline;
+				}
+			}
+		}
+	}
+}
+
+// Center aligned
+// ==========================================================================
+.type--center {
+	text-align: center;
+}
+
+// Right aligned
+// ==========================================================================
+.type--right {
+	text-align: right;
+}
+
+}

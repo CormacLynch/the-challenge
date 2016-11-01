@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>One-page App | Sportdec</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="https://www.sportdec.com/wp-content/uploads/2016/06/android-icon-48x48.png" sizes="32x32" />
+	<link rel="icon" href="https://www.sportdec.com/wp-content/uploads/2016/06/android-icon-48x48.png" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="https://www.sportdec.com/wp-content/uploads/2016/06/android-icon-48x48.png" />
+	<script src="js/bundle-index.js"></script>
+</head>
+<body ng-app="sportDecApp">
+	<main ng-controller="sportsNewsDataController">
+		<menu ng-show="showMenu"></menu>
+		<header class="header">
+			<sport-header></sport-header>
+			<filter-navigation ng-if="showFilterNavigation"></filter-navigation>
+			<back-navigation ng-if="showBackNavigation"></back-navigation>
+			<burger ng-click="showMenu=!showMenu"></burger>
+		</header>
+		<div class="page" ng-view></div>
+	</main>
+</body>
+</html>

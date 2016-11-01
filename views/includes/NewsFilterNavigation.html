@@ -1,0 +1,7 @@
+<nav>
+	<ul class="filter">
+		<li class="filter__item" ng-repeat="newsFilter in newsFeedDataFilters">
+			<a class="filter__link" ng-click="changeNewsFilteredBy(newsFilter.name)">{{newsFilter.name}}</a>
+		</li>
+	</ul>
+</nav>

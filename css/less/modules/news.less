@@ -1,0 +1,75 @@
+.news__container {
+	position: relative;
+	padding-top: 110px;
+
+	&.news__container-padding {
+		padding-top: 130px;
+		padding-bottom: 20px;
+	}
+}
+
+.news__date {
+	font-family: @font-family-light;
+	.font-size(14, 14);
+	color: @font-light;
+	margin-bottom: 15px;
+
+	&.news__date-dark {
+		display: inline-block;
+		color: @font-dark;
+	}
+}
+
+.news__byline {
+	display: inline-block;
+	font-family: @font-family-light;
+	.font-size(14, 14);
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+.news {
+	position: relative;
+	background-size: cover;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	height: 33.3333vh;
+	min-height: 210px;
+	display: block;
+
+	&.ng-move,
+	&.ng-enter,
+	&.ng-leave {
+		.transition(all 0.3s ease-in-out);
+	}
+
+	&.ng-leave.ng-leave-active,
+	&.ng-move,
+	&.ng-enter {
+		opacity: 0;
+	}
+
+	&.ng-leave,
+	&.ng-move.ng-move-active,
+	&.ng-enter.ng-enter-active {
+		opacity: 1;
+	}
+
+	.news__holder {
+		background-color: rgba(33, 38, 42, 0.7);
+		min-height: 80px;
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		bottom: 0px;
+	}
+
+	.news__inner {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.news__headline {
+		color: @font-light;
+		margin-bottom: 0px;
+	}
+}

@@ -1,0 +1,8 @@
+<a class="news" href="#news-item" ng-click="changeShowNewsFor(newsItem)" ng-repeat="newsItem in newsFeedData | orderBy:orderNewsItems"  style="background-image: url({{newsItem.links[0].url}});">
+	<div class="news__holder">
+		<div class="news__inner l-col-12">
+			<p class="news__date">{{newsItem.publishedTime | date}}</p>
+			<p class="news__headline">{{newsItem.headline}}</p>
+		</div>
+	</div>
+</a>

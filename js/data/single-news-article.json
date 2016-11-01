@@ -1,0 +1,121 @@
+{
+   "publishedTime":1459348530000,
+   "headline":"Moreno: Liverpool on track for Europa League glory",
+   "shortHeadline":"Moreno wants Europa League glory",
+   "teaser":"Liverpool defender Alberto Moreno is hopeful the Anfield side can go all the way in the Europa League this campaign.",
+   "body":"<p>Alberto Moreno is optimistic about Liverpool's chances of clinching a first European trophy since 2005 by winning the Europa League.</p> <p>Jurgen Klopp's men beat rivals Manchester United over two legs to book their ticket for the quarter-finals, where they will meet the German's former club Borussia Dortmund.</p> <p>Moreno realises they still have work to do if they are to win the competition, but he is confident Liverpool, who are ninth in the Premier League, have what it takes to go all the way.</p> <p>\"We need to keep working to reach our goals,\" Moreno told the official Liverpool website. \"We are closer to winning the Europa League title, although we still have a few games left.</p> <p>\"However, we still believe that we can win it.</p> <p>\"In the last few games we have conceded fewer goals and I think this is the result of the team working together and being aggressive defensively.</p> <p>\"We also have very strong strikers, so I think we are in a good moment.</p> <p>\"The Premier League is more difficult but we are working really hard to get a higher position in the table.\"</p>",
+   "externalUrl":null,
+   "byLine":"Stefan Coerts",
+   "authors":[
+
+   ],
+   "keywords":[
+      {
+         "id":148204,
+         "keyword":"Football",
+         "typeName":"Sport",
+         "typeId":41
+      },
+      {
+         "id":148932,
+         "keyword":"UEFA Europa League",
+         "typeName":"Football Competition",
+         "typeId":62
+      },
+      {
+         "id":148938,
+         "keyword":"Premier League",
+         "typeName":"Football Competition",
+         "typeId":62
+      },
+      {
+         "id":148966,
+         "keyword":"News",
+         "typeName":"Context",
+         "typeId":47
+      },
+      {
+         "id":149003,
+         "keyword":"Liverpool",
+         "typeName":"Football Teams",
+         "typeId":72
+      },
+      {
+         "id":149435,
+         "keyword":"English",
+         "typeName":"Language",
+         "typeId":61
+      },
+      {
+         "id":652040,
+         "keyword":"Alberto Moreno Perez",
+         "typeName":"Football People",
+         "typeId":203
+      }
+   ],
+   "categories":[
+
+   ],
+   "lastUpdateTime":1459348540000,
+   "links":[
+      {
+         "rel":"IMAGE_MOBILE",
+         "href":"urn:perform:image:uuid:1lm3e62nrd63t17cj9cv8o1sp3",
+         "url":"/di/library/omnisport/bb/80/albertomoreno-cropped_13ja0stsppmgf1ubkvfm3w0d3z.jpg?t=-2134169973",
+         "altText":"AlbertoMoreno - cropped",
+         "caption":"Liverpool left-back Alberto Moreno",
+         "credit":"Getty Images",
+         "source":"Getty Images",
+         "id":"1lm3e62nrd63t17cj9cv8o1sp3",
+         "type":"image",
+         "ord":1
+      },
+      {
+         "rel":"IMAGE_HEADER",
+         "href":"urn:perform:image:uuid:1lm3e62nrd63t17cj9cv8o1sp3",
+         "url":"/di/library/omnisport/bb/80/albertomoreno-cropped_13ja0stsppmgf1ubkvfm3w0d3z.jpg?t=-2134169973",
+         "altText":"AlbertoMoreno - cropped",
+         "caption":"Liverpool left-back Alberto Moreno",
+         "credit":"Getty Images",
+         "source":"Getty Images",
+         "id":"1lm3e62nrd63t17cj9cv8o1sp3",
+         "type":"image",
+         "ord":1
+      },
+      {
+         "rel":"IMAGE_SOURCE",
+         "href":"urn:perform:image:uuid:1lm3e62nrd63t17cj9cv8o1sp3",
+         "url":"/di/library/omnisport/bb/80/albertomoreno-cropped_13ja0stsppmgf1ubkvfm3w0d3z.jpg?t=-2134169973",
+         "altText":"AlbertoMoreno - cropped",
+         "caption":"Liverpool left-back Alberto Moreno",
+         "credit":"Getty Images",
+         "source":"Getty Images",
+         "id":"1lm3e62nrd63t17cj9cv8o1sp3",
+         "type":"image",
+         "ord":1
+      },
+      {
+         "rel":"IMAGE_TEASER",
+         "href":"urn:perform:image:uuid:1lm3e62nrd63t17cj9cv8o1sp3",
+         "url":"/di/library/omnisport/bb/80/albertomoreno-cropped_13ja0stsppmgf1ubkvfm3w0d3z.jpg?t=-2134169973",
+         "altText":"AlbertoMoreno - cropped",
+         "caption":"Liverpool left-back Alberto Moreno",
+         "credit":"Getty Images",
+         "source":"Getty Images",
+         "id":"1lm3e62nrd63t17cj9cv8o1sp3",
+         "type":"image",
+         "ord":1
+      },
+      {
+         "rel":"Related",
+         "href":"urn:perform:article:uuid:1b6gf66shbi3x1ghttk8o1jkmr",
+         "id":"1b6gf66shbi3x1ghttk8o1jkmr",
+         "type":"article",
+         "properties":{
+            "title":null
+         }
+      }
+   ],
+   "id":"12wokb8s2p2e713zj51szkmz97",
+   "moreLink":null
+}

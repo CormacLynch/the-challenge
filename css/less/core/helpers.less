@@ -1,0 +1,145 @@
+// ==========================================================================
+// Adaptive Helper classes
+// ==========================================================================
+
+.help--left { float: left; }
+.help--right { float: right; }
+
+.help--list-reset {
+	padding: 0;
+	list-style: none;
+}
+
+.help--hide-js {
+	display: none;
+
+	.no-js & {
+		display: block;
+	}
+}
+
+.overflow__hidden {
+	overflow: hidden;
+}
+
+.nopad {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+// Font size
+//============================================================
+//
+.font-size( @size, @height, @unit: rem ) {
+	font-size: unit(@size, px);
+	font-size: unit(@size / 10, @unit);
+	line-height: unit(@height, px);
+	line-height: unit(@height / 10, @unit);
+}
+
+// Flexbox
+//============================================================
+//
+.flexbox(@align, @justify, @ms-justify) {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: @align;
+	justify-content: @justify;
+	-ms-flex-align: @align;
+	-ms-flex-pack: @ms-justify;
+}
+
+@media @xs {
+	.help--visible-xs { display: inherit !important; }
+	.help--visible-sm { display: none !important; }
+	.help--visible-md { display: none !important; }
+	.help--visible-lg { display: none !important; }
+	.help--visible-xl { display: none !important; }
+
+	.help--hidden-xs  { display: none !important; }
+	.help--hidden-sm  {  }
+	.help--hidden-md  {  }
+	.help--hidden-lg  {  }
+	.help--hidden-xl  {  }
+}
+
+// Small
+// ==========================================================================
+@media @sm {
+	.help--visible-xs { display: none !important; }
+	.help--visible-sm { display: inherit !important; }
+	.help--visible-md { display: none !important; }
+	.help--visible-lg { display: none !important; }
+	.help--visible-xl { display: none !important; }
+
+	.help--hidden-xs  {  }
+	.help--hidden-sm  { display: none !important; }
+	.help--hidden-md  {  }
+	.help--hidden-lg  {  }
+	.help--hidden-xl  {  }
+}
+
+// Medium
+// ==========================================================================
+@media @md {
+	.help--visible-xs { display: none !important; }
+	.help--visible-sm { display: none !important; }
+	.help--visible-md { display: inherit !important; }
+	.help--visible-lg { display: none !important; }
+	.help--visible-xl { display: none !important; }
+
+	.help--hidden-xs  {  }
+	.help--hidden-sm  {  }
+	.help--hidden-md  { display: none !important; }
+	.help--hidden-lg  {  }
+	.help--hidden-xl  {  }
+}
+
+// Large
+// ==========================================================================
+@media @lg {
+	.help--visible-xs { display: none !important; }
+	.help--visible-sm { display: none !important; }
+	.help--visible-md { display: none !important; }
+	.help--visible-lg { display: inherit !important; }
+	.help--visible-xl { display: none !important; }
+
+	.help--hidden-xs  {  }
+	.help--hidden-sm  {  }
+	.help--hidden-md  {  }
+	.help--hidden-lg  { display: none !important; }
+	.help--hidden-xl  {  }
+}
+
+// Extra large
+// ==========================================================================
+@media @xl {
+	.help--visible-xs { display: none !important; }
+	.help--visible-sm { display: none !important; }
+	.help--visible-md { display: none !important; }
+	.help--visible-lg { display: none !important; }
+	.help--visible-xl { display: inherit !important; }
+
+	.help--hidden-xs  {  }
+	.help--hidden-sm  {  }
+	.help--hidden-md  {  }
+	.help--hidden-lg  {  }
+	.help--hidden-xl  { display: none !important; }
+}
+
+.ie8 {
+	.help--visible-xs,
+	.help--visible-sm,
+	.help--visible-md,
+	.help--hidden-lg,
+	.help--hidden-xl { display: none !important; }
+
+	.help--hidden-xs,
+	.help--hidden-sm,
+	.help--hidden-md,
+	.help--visible-lg,
+	.help--visible-xl { display: block !important; }
+}

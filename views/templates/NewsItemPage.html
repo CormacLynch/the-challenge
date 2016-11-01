@@ -1,0 +1,8 @@
+<div class="news__container news__container-padding">
+	<section class="l-col-12">
+		<h3>{{newsArticleData.headline}}</h3>
+		<p class="news__date news__date-dark">{{newsArticleData.publishedTime | date}}</p>
+		<p class="news__byline">By: {{newsArticleData.byLine}}</p>
+		<p ng-bind-html="newsArticleData.body"></p>
+	</section>
+</div>
